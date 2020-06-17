@@ -25,10 +25,14 @@
     	<param-name>contextConfigLocation</param-name>
     	<param-value>classpath:springmvc.xml</param-value>
     </init-param>
+    <init-param>
+        <param-name>listings</param-name>
+        <param-value>true</param-value>
+   </init-param>
     <!-- 表示容器在启动时立即加载servlet -->
     <load-on-startup>1</load-on-startup>
-  
 </servlet> 
+
 <servlet-mapping>
 	<servlet-name>springmvc</servlet-name>
 	<!-- 处理所有URL-->
