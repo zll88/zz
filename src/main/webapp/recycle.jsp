@@ -7,13 +7,13 @@
 <html lang="zh-CN">
 <head>
 <title>云端网盘</title>
-<link rel="stylesheet" type="text/css" href="./css/index.css">
-<link rel="stylesheet" type="text/css" href="./css/jquery/easyui.css">
-<link rel="stylesheet" type="text/css" href="./css/jquery/icon.css">
-<link rel="stylesheet" type="text/css" href="./css/jquery/demo.css">
-<script type="text/javascript" src="./js/jquery/jquery.min.js"></script>
-<script type="text/javascript" src="./js/jquery/jquery.easyui.min.js"></script>
-<script type="text/javascript" src="./js/index.js"></script>
+<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/css/index.css">
+<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/css/jquery/easyui.css">
+<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/css/jquery/icon.css">
+<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/css/jquery/demo.css">
+<script type="text/javascript" src="<%=request.getContextPath()%>/js/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="<%=request.getContextPath()%>/js/jquery/jquery.easyui.min.js"></script>
+<script type="text/javascript" src="<%=request.getContextPath()%>/js/index.js"></script>
 
 </head>
 <body>

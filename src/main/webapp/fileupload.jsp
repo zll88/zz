@@ -5,9 +5,9 @@
 <head>
 <meta charset="UTF-8">
 <title>云端网盘</title>
-<link rel="stylesheet" type="text/css" href="./css/index.css">
-<script type="text/javascript" src="./js/index.js"></script>
-<script type="text/javascript" src="./js/jquery/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/css/index.css">
+<script type="text/javascript" src="<%=request.getContextPath()%>/js/index.js"></script>
+<script type="text/javascript" src="<%=request.getContextPath()%>/js/jquery/jquery.min.js"></script>
 <script type="text/javascript">
 	$(document).ready(
 			function() {

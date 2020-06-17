@@ -5,8 +5,8 @@
 <head>
 <meta charset="UTF-8">
 <title>云端网盘登录</title>
-<link rel="stylesheet" type="text/css" href="./css/login.css">
-<script type="text/javascript" src="./js/login.js"></script>
+<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/css/login.css">
+<script type="text/javascript" src="<%=request.getContextPath()%>/js/login.js"></script>
 </head>
 <body>
 	<div id="cloud">

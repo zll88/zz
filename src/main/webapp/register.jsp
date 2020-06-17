@@ -5,8 +5,8 @@
 <head>
 <meta charset="UTF-8">
 <title>注册云端网盘账号</title>
-<link rel="stylesheet" type="text/css" href="./css/register.css">
-<script type="text/javascript" src="./js/register.js"></script>
+<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/css/register.css">
+<script type="text/javascript" src="<%=request.getContextPath()%>/js/register.js"></script>
 </head>
 <body>
 	<div id="register">
